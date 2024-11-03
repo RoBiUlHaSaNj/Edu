@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Style the header */
+header.jumbotron {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 2rem;
+  }
+  
+  section {
+    padding: 1.5rem 0;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  /* Code snippet style */
+  pre {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  /* Footer style */
+  footer {
+    background-color: #333;
+    color: #ffffff;
+  }
+  /* styles.css */
+
+/* General page styling */
+body {
+    background-color: #f5f5f5;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  /* Styling for buttons on the homepage */
+ 
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+body {
+    font-family: Arial, sans-serif; /* Choose a clean and readable font */
+    background-color: #f4f4f4; /* A light background for better contrast */
+    margin: 20px; /* Add some margin around the body */
+}
+
+.problem-item {
+    margin-bottom: 30px; /* Space between each problem item */
+    padding: 15px; /* Inner padding for better click area */
+    background-color: #ffffff; /* White background for each item */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+a {
+    text-decoration: none; /* Remove underline for links */
+    color: #007bff; /* Bootstrap blue color for links */
+    font-size: 18px; /* Increase font size for readability */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}
+
+.done-button {
+    background-color: #28a745; /* Green background for Done button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 15px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Font size for button text */
+    margin-left: 10px; /* Space between link and button */
+}
+
+.done-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
